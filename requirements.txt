@@ -1,3 +1,0 @@
-pip install openai
-pip install gradio 
-pip install python-dotenv
