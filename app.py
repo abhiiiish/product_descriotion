@@ -2,9 +2,6 @@ import openai
 import gradio as gr
 
 #set key
-from dotenv.main import load_dotenv
-import os
-load_dotenv()
 openai.api_key = os.environ['openai_key']
 
 messages = [
