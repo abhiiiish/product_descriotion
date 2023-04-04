@@ -2,6 +2,7 @@ import openai
 import gradio as gr
 
 #set key
+import os
 openai.api_key = os.environ['openai_key']
 
 messages = [
